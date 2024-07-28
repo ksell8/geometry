@@ -1,4 +1,8 @@
 site_name: Geometry
+repo_url: https://github.com/ksell8/geometry
+edit_uri: blob/main/geometry/doc/docs/
+site_description: Making Geometry Fun!
+site_author: Kurt Sell
 theme:
   name: mkdocs
 markdown_extensions:

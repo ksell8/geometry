@@ -1,5 +1,0 @@
-site_name: Geometry
-markdown_extensions:
-  - admonition
-  - pymdownx.details
-  - pymdownx.superfences

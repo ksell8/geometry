@@ -1,0 +1,31 @@
+site_name: Geometry
+theme:
+  name: mkdocs
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+nav:
+  - Home: index.md
+  - What is Geometry?: guide/history.md
+  - Lines: guide/lines.md
+  - Angles: guide/angles.md
+  - 2D Shapes:
+    site_name: Geometry
+theme:
+  name: mkdocs
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+nav:
+  - Home: index.md
+  - What is Geometry?: guide/history.md
+  - Lines: guide/lines.md
+  - Angles: guide/angles.md
+  - 2D Shapes: 
+    - Transformations: guide/shapes/transformations.md
+    - Triangles: guide/shapes/triangles.md
+    - Quadrilaterals: guide/shapes/quadrilaterals.md
+    - Circles: guide/shapes/circles.md
+

@@ -2,6 +2,7 @@
 
 #include <QPainter>
 #include <QPaintEvent>
+//Copyright (C) 2024 Kurt Sell
 #include <QWidget>
 
 Graph::Graph(int gridSpacing)

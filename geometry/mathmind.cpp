@@ -1,3 +1,4 @@
+//Copyright (C) 2024 Kurt Sell
 #include "mathmind.h"
 #include "./ui_mathmind.h"
 #include "graph.h"

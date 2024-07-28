@@ -1,6 +1,7 @@
 #ifndef MATHMIND_H
 #define MATHMIND_H
 
+//Copyright (C) 2024 Kurt Sell
 #include <QMainWindow>
 #include "graph.h"
 

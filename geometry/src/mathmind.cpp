@@ -1,24 +1,16 @@
 //Copyright (C) 2024 Kurt Sell
 #include "mathmind.h"
-#include "./ui_mathmind.h"
 #include "graph.h"
 
+#include <QDebug>
 #include <QPainter>
-#include <QTimer>
 
 
 MathMind::MathMind(Graph *graph, QWidget *parent)
-    : QMainWindow(parent)
-    , ui(new Ui::MathMind)
-    , graph(graph)
+    : graph(graph), QWidget(parent)
 {
-    ui->setupUi(this);
 }
 
-MathMind::~MathMind()
-{
-    delete ui;
-}
 
 
 void MathMind::paintEvent(QPaintEvent *event)

@@ -1,6 +1,6 @@
 //Copyright (C) 2024 Kurt Sell
-#include "mathmind.h"
 #include "graph.h"
+#include "mathmind.h"
 
 #include <QApplication>
 #include <QLocale>
@@ -19,8 +19,8 @@ int main(int argc, char *argv[])
             break;
         }
     }
-    Graph background = Graph(20);
-    MathMind w = MathMind(&background);
+    Graph graph = Graph(20);
+    MathMind w = MathMind(&graph);
     w.show();
     return a.exec();
 }

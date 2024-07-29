@@ -4,11 +4,14 @@
 
 #include <QDebug>
 #include <QPainter>
+#include <QPaintEvent>
 
 
-MathMind::MathMind(Graph *graph, QWidget *parent)
-    : graph(graph), QWidget(parent)
+MathMind::MathMind(QWidget *parent)
 {
+    parent = parent;
+    setMinimumSize(800,800);
+    graph = new Graph(20);
 }
 
 

@@ -7,7 +7,7 @@
 class Window: public QWidget
 {
 public:
-    Window();
+    Window(QWidget *parent = nullptr);
 
 };
 

@@ -11,7 +11,7 @@ class MathMind : public QWidget
     Q_OBJECT
 
 public:
-    MathMind(Graph *graph, QWidget *parent = nullptr);
+    MathMind(QWidget *parent = nullptr);
 
 protected:
     void paintEvent(QPaintEvent *event) override;

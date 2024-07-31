@@ -14,6 +14,7 @@ Graph::Graph(int gridSpacing)
     linePen.setWidth(1);
 }
 
+
 void Graph::paint(QPainter *painter, QPaintEvent *event){
     painter->paintEngine();
 

@@ -7,13 +7,16 @@
 #include <QPaintEvent>
 
 
-MathMind::MathMind(QWidget *parent)
+MathMind::MathMind(Graph *graph, QWidget *parent):
+    QWidget(parent),
+    graph(graph)
 {
-    parent = parent;
     setMinimumSize(800,800);
-    graph = new Graph(20);
 }
 
+MathMind::~MathMind(){
+    delete graph;
+}
 
 
 void MathMind::paintEvent(QPaintEvent *event)

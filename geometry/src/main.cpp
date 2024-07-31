@@ -1,7 +1,6 @@
 //Copyright (C) 2024 Kurt Sell
 #include "graph.h"
-//#include "mathmind.h"
-#include "window.h"
+#include "mathmind.h"
 
 #include <QApplication>
 #include <QLocale>
@@ -20,8 +19,8 @@ int main(int argc, char *argv[])
             break;
         }
     }
-    //Graph graph = Graph(20);
-    Window w = Window();
+    Graph graph = Graph(20);
+    MathMind w = MathMind(&graph);
     w.show();
     return a.exec();
 }

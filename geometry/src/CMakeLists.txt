@@ -7,10 +7,10 @@ set(PROJECT_SOURCES
 
         graph.h
         graph.cpp
-        toolbar.h
-        toolbar.cpp
-        window.h
-        window.cpp
+
+
+
+
         ${TS_FILES}
 )
 

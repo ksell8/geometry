@@ -1,14 +1,25 @@
-site_name: Geometry
+site_name: geometry
 repo_url: https://github.com/ksell8/geometry
-edit_uri: blob/main/geometry/doc/docs/
 site_description: Making Geometry Fun!
 site_author: Kurt Sell
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/ksell8/
 theme:
-  name: mkdocs
-markdown_extensions:
-  - admonition
-  - pymdownx.details
-  - pymdownx.superfences
+  name: material
+  logo: img/logo.svg
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
 nav:
   - Home: index.md
   - What is Geometry?: guide/history.md
@@ -16,22 +27,31 @@ nav:
   - Angles: guide/angles.md
   - 2D Shapes:
     site_name: Geometry
-theme:
-  name: mkdocs
 markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
   - attr_list
   - md_in_html
 nav:
   - Home: index.md
   - What is Geometry?: guide/history.md
-  - Lines: guide/lines.md
-  - Angles: guide/angles.md
+  - Space:
+    - Points: guide/space/points.md
+    - Lines: guide/space/lines.md
+    - Angles: guide/space/angles.md
   - 2D Shapes: 
     - Transformations: guide/shapes/transformations.md
     - Triangles: guide/shapes/triangles.md
     - Quadrilaterals: guide/shapes/quadrilaterals.md
     - Circles: guide/shapes/circles.md
+  - 3D Solids:
+    - Prisms: guide/solids/prisms.md
+    - Pointy Things: guide/solids/pointy-things.md
+  - Logic:
+    - Axioms: guide/logic/axioms.md
+    - Premises and Conclusions: guide/logic/premises-and-conclusions.md
+    - P's and Q's: guide/logic/p-and-q.md
 

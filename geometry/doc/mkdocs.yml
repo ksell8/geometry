@@ -38,10 +38,7 @@ markdown_extensions:
 nav:
   - Home: index.md
   - What is Geometry?: guide/history.md
-  - Space:
-    - Points: guide/space/points.md
-    - Lines: guide/space/lines.md
-    - Angles: guide/space/angles.md
+  - Space: guide/space.md
   - 2D Shapes: 
     - Transformations: guide/shapes/transformations.md
     - Triangles: guide/shapes/triangles.md

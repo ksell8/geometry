@@ -8,3 +8,5 @@ reference tools that can be built and used to understand these topics.
 I am creating it in order to review and Geometry for the MTEL!
 
 Tools are based on Qt Community Edition.  For this reason, the project is licensed under the LGPL.
+
+I'm also interested in learning Lean for teaching proofwriting.

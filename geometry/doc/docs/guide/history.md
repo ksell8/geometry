@@ -37,7 +37,13 @@ Let's do a quick activity to drive this point home.
         they will fail to re-create it.  Therefore, it seems Euclid's geometry can be used as long
         as doing so doesn't abstract away enough of the crucial details.  
 
-## Applications for Eucledian Geometry
+## Applications for Geometry
 
-## Why Should you Learn Eucledian Geometry?
+![Computer Graphics](../img/graphics.jpg){align=left}
+Computer Graphics: 
+![Architecture](../img/architecture.jpg){align=right}
+Architecture: 
+![Art](../img/art.jpg){align=left}
+
+## I'm Not a Visual Learner, Why Should I Learn Geometry?
 
